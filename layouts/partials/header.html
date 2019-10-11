@@ -9,6 +9,9 @@
 </div>
 
 <nav class="site-navbar">
+    {{ if (and .IsPage (not .Params.notsb)) }}
+      <div class="top-progress-bar"></div>
+    {{ end }}
   <ul id="menu" class="menu">
     {{ range .Site.Menus.main -}}
       <li class="menu-item">

@@ -2,3 +2,15 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+// top reading progress bar
+.top-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    width: 0;
+    height: 3px;
+    // background: #e74c3c;
+    background: #C05B4D;
+}
